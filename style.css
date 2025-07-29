@@ -136,3 +136,59 @@ body {
            transform: translateX(0);
     }
 }
+
+@media (max-width: 1200px) {
+    #scroll-div h1,
+    #scroll-div1 h1,
+    #scroll-div2 h1 {
+        font-size: 100px;
+    }
+
+    #text {
+        font-size: 28px;
+        width: 80%;
+    }
+
+    #main img {
+        height: 500px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    #scroll-div h1,
+    #scroll-div1 h1,
+    #scroll-div2 h1 {
+        font-size: 70px;
+    }
+
+    #text {
+        font-size: 22px;
+        width: 90%;
+        top: 5%;
+    }
+
+    #main img {
+        height: 400px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #scroll-div h1,
+    #scroll-div1 h1,
+    #scroll-div2 h1 {
+        font-size: 50px;
+        margin-right: 20px;
+    }
+
+    #text {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    #main img {
+        height: 300px;
+        width: 220px;
+    }
+}
